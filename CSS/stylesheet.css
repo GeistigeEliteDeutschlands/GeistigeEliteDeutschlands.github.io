@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(43, 90, 134);
+    margin: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Head{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.Manifest{
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.des_Manifests_hader{
+    text-decoration: underline;
+}
