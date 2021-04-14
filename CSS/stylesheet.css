@@ -5,10 +5,24 @@ body{
     font-family: sans-serif;
 }
 
-.Head{
+.Head h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+
+.Head2 h2{
     font-size: 30px;
     text-decoration: underline;
+    text-decoration: bold;
 }
+
+.Head2 h2:hover{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+
 
 .Manifest{
     font-size: 25px;
@@ -17,4 +31,32 @@ body{
 
 .des_Manifests_hader{
     text-decoration: underline;
+}
+
+#navbar{
+	background-color: grey;
+	background: rgba(0, 0, 0, .3);
+	position: sticky;
+    top: 50px;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px;
+}
+
+nav ul li a:hover{
+	background: rgba(95, 86, 86, 0.664);
+}
+
+.container{
+	width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
