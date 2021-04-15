@@ -5,6 +5,7 @@ body{
     font-family: sans-serif;
 }
 
+/*HEADINGS*/
 .Head h1{
     font-size: 50px;
     text-decoration: underline;
@@ -19,20 +20,22 @@ body{
 
 .Head2 h2:hover{
     font-size: 30px;
-    text-decoration: underline;
+    text-decoration: line-through;
     text-decoration: bold;
 }
 
+/*MANIFEST*/
+
+.des_Manifests_hader{
+    text-decoration: underline;
+}
 
 .Manifest{
     font-size: 25px;
     font-family: fantasy;
 }
 
-.des_Manifests_hader{
-    text-decoration: underline;
-}
-
+/*NAVBAR*/
 #navbar{
 	background-color: grey;
 	background: rgba(0, 0, 0, .3);
