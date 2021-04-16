@@ -17,12 +17,13 @@ body{
     text-decoration: underline;
     text-decoration: bold;
 }
-
+/*
 .Head2 h2:hover{
     font-size: 30px;
     text-decoration: line-through;
     text-decoration: bold;
 }
+*/
 
 /*MANIFEST*/
 
@@ -37,8 +38,8 @@ body{
 
 /*NAVBAR*/
 #navbar{
-	background-color: grey;
-	background: rgba(0, 0, 0, .3);
+	/*background-color: rgb(236, 0, 0);*/
+	background: rgba(30,63,94,255);
 	position: sticky;
     top: 50px;
 }
@@ -55,7 +56,7 @@ body{
 }
 
 nav ul li a:hover{
-	background: rgba(95, 86, 86, 0.664);
+	background: rgb(255, 153, 0);
 }
 
 .container{
